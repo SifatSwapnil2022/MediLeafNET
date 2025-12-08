@@ -1,0 +1,17 @@
+{
+  "device": "cuda",
+  "vit_checkpoint_path": "F:\\CAPSTONE_C\\Thesis_App\\Multimodal(ViT+BERT)\\best_vit_model.pth",
+  "bart_model_dir": "F:\\CAPSTONE_C\\Thesis_App\\Multimodal(ViT+BERT)\\bart-plants",
+  "text_csv_path": "F:\\CAPSTONE_C\\Thesis_App\\Multimodal(ViT+BERT)\\CapC_medicinal_plants_with_id.csv",
+  "img_size": 224,
+  "patch_size": 16,
+  "embed_dim": 384,
+  "depth": 6,
+  "num_heads": 6,
+  "mlp_ratio": 4.0,
+  "dropout": 0.2,
+  "attn_dropout": 0.1,
+  "drop_path": 0.1,
+  "min_confidence_for_generation": 0.7,
+  "num_classes": 11
+}

@@ -1,0 +1,11 @@
+torch>=1.12.0
+torchvision
+transformers>=4.30
+datasets
+safetensors
+pandas
+numpy
+Pillow
+scikit-learn
+tqdm
+gradio
