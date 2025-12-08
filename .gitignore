@@ -1,3 +1,7 @@
 # Ignore large model files
 *.pth
 *.safetensors
+# Python virtual environment
+.venv/
+env/
+venv/
