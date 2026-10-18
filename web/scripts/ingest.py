@@ -33,7 +33,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 CSV_URL = "https://github.com/SifatSwapnil2022/MediLeafNET/blob/main/Multimodal(ViT%2BBERT)/CapC_medicinal_plants_with_id.csv"
 WIKI_SKIP = {"references", "external links", "see also", "further reading", "notes", "gallery", "bibliography"}
-UA = {"User-Agent": "MediLeaf/1.0 (research demo; github.com/SifatSwapnil2022/MediLeafNET)"}
+UA = {"User-Agent": "MediLeafNET/1.0 (research demo; github.com/SifatSwapnil2022/MediLeafNET)"}
 
 
 def sci_name(plant_id: str) -> str:
@@ -77,13 +77,22 @@ def wikipedia_chunks(plant_ids: list[str]) -> list[dict]:
     rows = []
     for pid in plant_ids:
         title = sci_name(pid)
-        r = requests.get(
-            "https://en.wikipedia.org/w/api.php",
-            params={"action": "query", "prop": "extracts|info", "explaintext": 1, "inprop": "url", "redirects": 1, "titles": title, "format": "json"},
-            headers=UA,
-            timeout=30,
-        )
-        page = next(iter(r.json()["query"]["pages"].values()))
+        page = None
+        for attempt in range(4):
+            try:
+                r = requests.get(
+                    "https://en.wikipedia.org/w/api.php",
+                    params={"action": "query", "prop": "extracts|info", "explaintext": 1, "inprop": "url", "redirects": 1, "titles": title, "format": "json"},
+                    headers=UA,
+                    timeout=30,
+                )
+                page = next(iter(r.json()["query"]["pages"].values()))
+                break
+            except (ValueError, KeyError, requests.RequestException):
+                time.sleep(3 * (attempt + 1))
+        if page is None:
+            print(f"  [skip] Wikipedia did not respond for {title}")
+            continue
         if "extract" not in page or not page["extract"].strip():
             print(f"  [skip] no Wikipedia article for {title}")
             continue
@@ -111,7 +120,7 @@ def wikipedia_chunks(plant_ids: list[str]) -> list[dict]:
                 )
                 n += 1
         print(f"  [ok] {page_title}: {n} passages")
-        time.sleep(0.5)
+        time.sleep(1.5)
     return rows
 
 
