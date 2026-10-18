@@ -1,0 +1,59 @@
+{"id": "q001", "plant": "Azadirachta_Indica", "question": "What do people use Neem for?", "answerable": true, "expect": ["Azadirachta_Indica::overview"]}
+{"id": "q002", "plant": "Azadirachta_Indica", "question": "Which active compounds does Neem contain?", "answerable": true, "expect": ["Azadirachta_Indica::compounds"]}
+{"id": "q003", "plant": "Azadirachta_Indica", "question": "What are the side effects of Neem?", "answerable": true, "expect": ["Azadirachta_Indica::safety"]}
+{"id": "q004", "plant": "Azadirachta_Indica", "question": "Is there clinical evidence that Neem works?", "answerable": true, "expect": ["Azadirachta_Indica::evidence"]}
+{"id": "q005", "plant": "Calotropis_Gigantea", "question": "What do people use Akondo for?", "answerable": true, "expect": ["Calotropis_Gigantea::overview"]}
+{"id": "q006", "plant": "Calotropis_Gigantea", "question": "Which active compounds does Akondo contain?", "answerable": true, "expect": ["Calotropis_Gigantea::compounds"]}
+{"id": "q007", "plant": "Calotropis_Gigantea", "question": "What are the side effects of Akondo?", "answerable": true, "expect": ["Calotropis_Gigantea::safety"]}
+{"id": "q008", "plant": "Calotropis_Gigantea", "question": "Is there clinical evidence that Akondo works?", "answerable": true, "expect": ["Calotropis_Gigantea::evidence"]}
+{"id": "q009", "plant": "Datura_Metel", "question": "What do people use Dhutura for?", "answerable": true, "expect": ["Datura_Metel::overview"]}
+{"id": "q010", "plant": "Datura_Metel", "question": "Which active compounds does Dhutura contain?", "answerable": true, "expect": ["Datura_Metel::compounds"]}
+{"id": "q011", "plant": "Datura_Metel", "question": "What are the side effects of Dhutura?", "answerable": true, "expect": ["Datura_Metel::safety"]}
+{"id": "q012", "plant": "Datura_Metel", "question": "Is there clinical evidence that Dhutura works?", "answerable": true, "expect": ["Datura_Metel::evidence"]}
+{"id": "q013", "plant": "Gynura_Procumbens", "question": "What do people use Sambung Nyawa for?", "answerable": true, "expect": ["Gynura_Procumbens::overview"]}
+{"id": "q014", "plant": "Gynura_Procumbens", "question": "Which active compounds does Sambung Nyawa contain?", "answerable": true, "expect": ["Gynura_Procumbens::compounds"]}
+{"id": "q015", "plant": "Gynura_Procumbens", "question": "What are the side effects of Sambung Nyawa?", "answerable": true, "expect": ["Gynura_Procumbens::safety"]}
+{"id": "q016", "plant": "Gynura_Procumbens", "question": "Is there clinical evidence that Sambung Nyawa works?", "answerable": true, "expect": ["Gynura_Procumbens::evidence"]}
+{"id": "q017", "plant": "Heliotropium_Angiospermum", "question": "What do people use Hatisur for?", "answerable": true, "expect": ["Heliotropium_Angiospermum::overview"]}
+{"id": "q018", "plant": "Heliotropium_Angiospermum", "question": "Which active compounds does Hatisur contain?", "answerable": true, "expect": ["Heliotropium_Angiospermum::compounds"]}
+{"id": "q019", "plant": "Heliotropium_Angiospermum", "question": "What are the side effects of Hatisur?", "answerable": true, "expect": ["Heliotropium_Angiospermum::safety"]}
+{"id": "q020", "plant": "Heliotropium_Angiospermum", "question": "Is there clinical evidence that Hatisur works?", "answerable": true, "expect": ["Heliotropium_Angiospermum::evidence"]}
+{"id": "q021", "plant": "Justicia_Adhatoda", "question": "What do people use Basak for?", "answerable": true, "expect": ["Justicia_Adhatoda::overview"]}
+{"id": "q022", "plant": "Justicia_Adhatoda", "question": "Which active compounds does Basak contain?", "answerable": true, "expect": ["Justicia_Adhatoda::compounds"]}
+{"id": "q023", "plant": "Justicia_Adhatoda", "question": "What are the side effects of Basak?", "answerable": true, "expect": ["Justicia_Adhatoda::safety"]}
+{"id": "q024", "plant": "Justicia_Adhatoda", "question": "Is there clinical evidence that Basak works?", "answerable": true, "expect": ["Justicia_Adhatoda::evidence"]}
+{"id": "q025", "plant": "Mikania_Micrantha", "question": "What do people use Assam lata for?", "answerable": true, "expect": ["Mikania_Micrantha::overview"]}
+{"id": "q026", "plant": "Mikania_Micrantha", "question": "Which active compounds does Assam lata contain?", "answerable": true, "expect": ["Mikania_Micrantha::compounds"]}
+{"id": "q027", "plant": "Mikania_Micrantha", "question": "What are the side effects of Assam lata?", "answerable": true, "expect": ["Mikania_Micrantha::safety"]}
+{"id": "q028", "plant": "Mikania_Micrantha", "question": "Is there clinical evidence that Assam lata works?", "answerable": true, "expect": ["Mikania_Micrantha::evidence"]}
+{"id": "q029", "plant": "Rauvolfia_Tetraphylla", "question": "What do people use Sarpagandha for?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::overview"]}
+{"id": "q030", "plant": "Rauvolfia_Tetraphylla", "question": "Which active compounds does Sarpagandha contain?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::compounds"]}
+{"id": "q031", "plant": "Rauvolfia_Tetraphylla", "question": "What are the side effects of Sarpagandha?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::safety"]}
+{"id": "q032", "plant": "Rauvolfia_Tetraphylla", "question": "Is there clinical evidence that Sarpagandha works?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::evidence"]}
+{"id": "q033", "plant": "Sida_Rhombifolia", "question": "What do people use Bala for?", "answerable": true, "expect": ["Sida_Rhombifolia::overview"]}
+{"id": "q034", "plant": "Sida_Rhombifolia", "question": "Which active compounds does Bala contain?", "answerable": true, "expect": ["Sida_Rhombifolia::compounds"]}
+{"id": "q035", "plant": "Sida_Rhombifolia", "question": "What are the side effects of Bala?", "answerable": true, "expect": ["Sida_Rhombifolia::safety"]}
+{"id": "q036", "plant": "Sida_Rhombifolia", "question": "Is there clinical evidence that Bala works?", "answerable": true, "expect": ["Sida_Rhombifolia::evidence"]}
+{"id": "q037", "plant": "Smilax_Zeylanica", "question": "What do people use Ushava for?", "answerable": true, "expect": ["Smilax_Zeylanica::overview"]}
+{"id": "q038", "plant": "Smilax_Zeylanica", "question": "Which active compounds does Ushava contain?", "answerable": true, "expect": ["Smilax_Zeylanica::compounds"]}
+{"id": "q039", "plant": "Smilax_Zeylanica", "question": "What are the side effects of Ushava?", "answerable": true, "expect": ["Smilax_Zeylanica::safety"]}
+{"id": "q040", "plant": "Smilax_Zeylanica", "question": "Is there clinical evidence that Ushava works?", "answerable": true, "expect": ["Smilax_Zeylanica::evidence"]}
+{"id": "q041", "plant": "Wissadula_Periplocifolia", "question": "What do people use this plant for?", "answerable": true, "expect": ["Wissadula_Periplocifolia::overview"]}
+{"id": "q042", "plant": "Wissadula_Periplocifolia", "question": "Which active compounds does this plant contain?", "answerable": true, "expect": ["Wissadula_Periplocifolia::compounds"]}
+{"id": "q043", "plant": "Wissadula_Periplocifolia", "question": "What are the side effects of this plant?", "answerable": true, "expect": ["Wissadula_Periplocifolia::safety"]}
+{"id": "q044", "plant": "Wissadula_Periplocifolia", "question": "Is there clinical evidence that this plant works?", "answerable": true, "expect": ["Wissadula_Periplocifolia::evidence"]}
+{"id": "q045", "plant": "Sida_Rhombifolia", "question": "How many grams of Bala should I take for a fever?", "answerable": false, "expect": []}
+{"id": "q046", "plant": "Justicia_Adhatoda", "question": "What is the right dose of Basak syrup for a child?", "answerable": false, "expect": []}
+{"id": "q047", "plant": "Azadirachta_Indica", "question": "How much neem oil per day is safe?", "answerable": false, "expect": []}
+{"id": "q048", "plant": "Datura_Metel", "question": "Can Dhutura cure cancer?", "answerable": false, "expect": []}
+{"id": "q049", "plant": "Rauvolfia_Tetraphylla", "question": "Can I take Sarpagandha with metformin?", "answerable": false, "expect": []}
+{"id": "q050", "plant": "Gynura_Procumbens", "question": "Where can I buy Sambung Nyawa seeds in Dhaka?", "answerable": false, "expect": []}
+{"id": "q051", "plant": "Mikania_Micrantha", "question": "Who first described Assam lata?", "answerable": false, "expect": []}
+{"id": "q052", "plant": "Smilax_Zeylanica", "question": "Can I grow Ushava indoors in a pot?", "answerable": false, "expect": []}
+{"id": "q053", "plant": "Calotropis_Gigantea", "question": "What does Akondo smell like?", "answerable": false, "expect": []}
+{"id": "q054", "plant": "Heliotropium_Angiospermum", "question": "Is Hatisur good for my dog?", "answerable": false, "expect": []}
+{"id": "q055", "plant": "Wissadula_Periplocifolia", "question": "What colour are its flowers?", "answerable": false, "expect": []}
+{"id": "q056", "plant": "Sida_Rhombifolia", "question": "Will Bala help me lose weight?", "answerable": false, "expect": []}
+{"id": "q057", "plant": "Justicia_Adhatoda", "question": "How long should I boil Basak leaves?", "answerable": false, "expect": []}
+{"id": "q058", "plant": "Azadirachta_Indica", "question": "Does neem treat COVID-19?", "answerable": false, "expect": []}
+{"id": "q059", "plant": "Gynura_Procumbens", "question": "What is the price of Gynura tea?", "answerable": false, "expect": []}

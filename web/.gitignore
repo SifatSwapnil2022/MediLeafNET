@@ -1,0 +1,14 @@
+node_modules
+dist
+.vercel
+.env
+.env.local
+*.local
+__pycache__/
+*.pyc
+.venv/
+# the raw PyTorch weights stay out of git; the exported ONNX files in public/model are committed
+*.pth
+public/model/medileaf_vit_fp32.onnx
+.DS_Store
+.venv-export/

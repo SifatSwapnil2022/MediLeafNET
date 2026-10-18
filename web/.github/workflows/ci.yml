@@ -1,0 +1,42 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsc -b
+      - name: Offline retrieval eval (fails if the held-out refusal rate drops)
+        run: |
+          npx tsx scripts/eval-offline.ts
+          node -e "const r=require('./public/eval/results.json'); if (r.refusalAccuracy < 0.8) { console.error('refusal accuracy fell to', r.refusalAccuracy); process.exit(1) }"
+      - run: npm run build
+
+  # Scores the deployed pipeline. Add a repository secret MEDILEAF_URL (and GROQ_API_KEY for --judge).
+  eval-live:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests groq
+      - run: python scripts/eval.py --api "${{ secrets.MEDILEAF_URL }}" --judge
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: public/eval/results.json

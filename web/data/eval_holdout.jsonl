@@ -1,0 +1,54 @@
+{"id": "h001", "plant": "Azadirachta_Indica", "question": "Is Neem dangerous to use?", "answerable": true, "expect": ["Azadirachta_Indica::safety"]}
+{"id": "h002", "plant": "Azadirachta_Indica", "question": "What illnesses is Neem taken for?", "answerable": true, "expect": ["Azadirachta_Indica::overview"]}
+{"id": "h003", "plant": "Azadirachta_Indica", "question": "What chemicals make Neem work?", "answerable": true, "expect": ["Azadirachta_Indica::compounds"]}
+{"id": "h004", "plant": "Azadirachta_Indica", "question": "Has Neem been tested on people?", "answerable": true, "expect": ["Azadirachta_Indica::evidence"]}
+{"id": "h005", "plant": "Calotropis_Gigantea", "question": "Is Akondo dangerous to use?", "answerable": true, "expect": ["Calotropis_Gigantea::safety"]}
+{"id": "h006", "plant": "Calotropis_Gigantea", "question": "What illnesses is Akondo taken for?", "answerable": true, "expect": ["Calotropis_Gigantea::overview"]}
+{"id": "h007", "plant": "Calotropis_Gigantea", "question": "What chemicals make Akondo work?", "answerable": true, "expect": ["Calotropis_Gigantea::compounds"]}
+{"id": "h008", "plant": "Calotropis_Gigantea", "question": "Has Akondo been tested on people?", "answerable": true, "expect": ["Calotropis_Gigantea::evidence"]}
+{"id": "h009", "plant": "Datura_Metel", "question": "Is Datura dangerous to use?", "answerable": true, "expect": ["Datura_Metel::safety"]}
+{"id": "h010", "plant": "Datura_Metel", "question": "What illnesses is Datura taken for?", "answerable": true, "expect": ["Datura_Metel::overview"]}
+{"id": "h011", "plant": "Datura_Metel", "question": "What chemicals make Datura work?", "answerable": true, "expect": ["Datura_Metel::compounds"]}
+{"id": "h012", "plant": "Datura_Metel", "question": "Has Datura been tested on people?", "answerable": true, "expect": ["Datura_Metel::evidence"]}
+{"id": "h013", "plant": "Gynura_Procumbens", "question": "Is Gynura dangerous to use?", "answerable": true, "expect": ["Gynura_Procumbens::safety"]}
+{"id": "h014", "plant": "Gynura_Procumbens", "question": "What illnesses is Gynura taken for?", "answerable": true, "expect": ["Gynura_Procumbens::overview"]}
+{"id": "h015", "plant": "Gynura_Procumbens", "question": "What chemicals make Gynura work?", "answerable": true, "expect": ["Gynura_Procumbens::compounds"]}
+{"id": "h016", "plant": "Gynura_Procumbens", "question": "Has Gynura been tested on people?", "answerable": true, "expect": ["Gynura_Procumbens::evidence"]}
+{"id": "h017", "plant": "Heliotropium_Angiospermum", "question": "Is Heliotropium dangerous to use?", "answerable": true, "expect": ["Heliotropium_Angiospermum::safety"]}
+{"id": "h018", "plant": "Heliotropium_Angiospermum", "question": "What illnesses is Heliotropium taken for?", "answerable": true, "expect": ["Heliotropium_Angiospermum::overview"]}
+{"id": "h019", "plant": "Heliotropium_Angiospermum", "question": "What chemicals make Heliotropium work?", "answerable": true, "expect": ["Heliotropium_Angiospermum::compounds"]}
+{"id": "h020", "plant": "Heliotropium_Angiospermum", "question": "Has Heliotropium been tested on people?", "answerable": true, "expect": ["Heliotropium_Angiospermum::evidence"]}
+{"id": "h021", "plant": "Justicia_Adhatoda", "question": "Is Vasaka dangerous to use?", "answerable": true, "expect": ["Justicia_Adhatoda::safety"]}
+{"id": "h022", "plant": "Justicia_Adhatoda", "question": "What illnesses is Vasaka taken for?", "answerable": true, "expect": ["Justicia_Adhatoda::overview"]}
+{"id": "h023", "plant": "Justicia_Adhatoda", "question": "What chemicals make Vasaka work?", "answerable": true, "expect": ["Justicia_Adhatoda::compounds"]}
+{"id": "h024", "plant": "Justicia_Adhatoda", "question": "Has Vasaka been tested on people?", "answerable": true, "expect": ["Justicia_Adhatoda::evidence"]}
+{"id": "h025", "plant": "Mikania_Micrantha", "question": "Is Mikania dangerous to use?", "answerable": true, "expect": ["Mikania_Micrantha::safety"]}
+{"id": "h026", "plant": "Mikania_Micrantha", "question": "What illnesses is Mikania taken for?", "answerable": true, "expect": ["Mikania_Micrantha::overview"]}
+{"id": "h027", "plant": "Mikania_Micrantha", "question": "What chemicals make Mikania work?", "answerable": true, "expect": ["Mikania_Micrantha::compounds"]}
+{"id": "h028", "plant": "Mikania_Micrantha", "question": "Has Mikania been tested on people?", "answerable": true, "expect": ["Mikania_Micrantha::evidence"]}
+{"id": "h029", "plant": "Rauvolfia_Tetraphylla", "question": "Is Rauvolfia dangerous to use?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::safety"]}
+{"id": "h030", "plant": "Rauvolfia_Tetraphylla", "question": "What illnesses is Rauvolfia taken for?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::overview"]}
+{"id": "h031", "plant": "Rauvolfia_Tetraphylla", "question": "What chemicals make Rauvolfia work?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::compounds"]}
+{"id": "h032", "plant": "Rauvolfia_Tetraphylla", "question": "Has Rauvolfia been tested on people?", "answerable": true, "expect": ["Rauvolfia_Tetraphylla::evidence"]}
+{"id": "h033", "plant": "Sida_Rhombifolia", "question": "Is Sida dangerous to use?", "answerable": true, "expect": ["Sida_Rhombifolia::safety"]}
+{"id": "h034", "plant": "Sida_Rhombifolia", "question": "What illnesses is Sida taken for?", "answerable": true, "expect": ["Sida_Rhombifolia::overview"]}
+{"id": "h035", "plant": "Sida_Rhombifolia", "question": "What chemicals make Sida work?", "answerable": true, "expect": ["Sida_Rhombifolia::compounds"]}
+{"id": "h036", "plant": "Sida_Rhombifolia", "question": "Has Sida been tested on people?", "answerable": true, "expect": ["Sida_Rhombifolia::evidence"]}
+{"id": "h037", "plant": "Smilax_Zeylanica", "question": "Is Smilax dangerous to use?", "answerable": true, "expect": ["Smilax_Zeylanica::safety"]}
+{"id": "h038", "plant": "Smilax_Zeylanica", "question": "What illnesses is Smilax taken for?", "answerable": true, "expect": ["Smilax_Zeylanica::overview"]}
+{"id": "h039", "plant": "Smilax_Zeylanica", "question": "What chemicals make Smilax work?", "answerable": true, "expect": ["Smilax_Zeylanica::compounds"]}
+{"id": "h040", "plant": "Smilax_Zeylanica", "question": "Has Smilax been tested on people?", "answerable": true, "expect": ["Smilax_Zeylanica::evidence"]}
+{"id": "h041", "plant": "Wissadula_Periplocifolia", "question": "Is Wissadula dangerous to use?", "answerable": true, "expect": ["Wissadula_Periplocifolia::safety"]}
+{"id": "h042", "plant": "Wissadula_Periplocifolia", "question": "What illnesses is Wissadula taken for?", "answerable": true, "expect": ["Wissadula_Periplocifolia::overview"]}
+{"id": "h043", "plant": "Wissadula_Periplocifolia", "question": "What chemicals make Wissadula work?", "answerable": true, "expect": ["Wissadula_Periplocifolia::compounds"]}
+{"id": "h044", "plant": "Wissadula_Periplocifolia", "question": "Has Wissadula been tested on people?", "answerable": true, "expect": ["Wissadula_Periplocifolia::evidence"]}
+{"id": "h045", "plant": "Azadirachta_Indica", "question": "Can neem replace my insulin?", "answerable": false, "expect": []}
+{"id": "h046", "plant": "Datura_Metel", "question": "How do I prepare Datura tea?", "answerable": false, "expect": []}
+{"id": "h047", "plant": "Sida_Rhombifolia", "question": "Is Sida safe while breastfeeding?", "answerable": false, "expect": []}
+{"id": "h048", "plant": "Justicia_Adhatoda", "question": "Does Vasaka interact with antibiotics?", "answerable": false, "expect": []}
+{"id": "h049", "plant": "Calotropis_Gigantea", "question": "How tall does Akondo grow?", "answerable": false, "expect": []}
+{"id": "h050", "plant": "Smilax_Zeylanica", "question": "What does Smilax taste like?", "answerable": false, "expect": []}
+{"id": "h051", "plant": "Rauvolfia_Tetraphylla", "question": "Can I stop my blood pressure medicine and use Rauvolfia instead?", "answerable": false, "expect": []}
+{"id": "h052", "plant": "Mikania_Micrantha", "question": "How fast does Mikania spread in a garden?", "answerable": false, "expect": []}
+{"id": "h053", "plant": "Gynura_Procumbens", "question": "Does Gynura help with migraines?", "answerable": false, "expect": []}
+{"id": "h054", "plant": "Wissadula_Periplocifolia", "question": "Is Wissadula sold in pharmacies?", "answerable": false, "expect": []}

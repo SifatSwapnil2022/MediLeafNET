@@ -1,0 +1,237 @@
+{
+  "mode": "offline",
+  "set": "holdout",
+  "date": "2026-10-18",
+  "questions": 54,
+  "unanswerable": 10,
+  "hitAt4": 0.045454545454545456,
+  "refusalAccuracy": 0.9,
+  "wrongRefusals": 33,
+  "citationCoverage": 1,
+  "failures": [
+    {
+      "id": "h002",
+      "question": "What illnesses is Neem taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h003",
+      "question": "What chemicals make Neem work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h004",
+      "question": "Has Neem been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h005",
+      "question": "Is Akondo dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h006",
+      "question": "What illnesses is Akondo taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h007",
+      "question": "What chemicals make Akondo work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h008",
+      "question": "Has Akondo been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h009",
+      "question": "Is Datura dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h010",
+      "question": "What illnesses is Datura taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h011",
+      "question": "What chemicals make Datura work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h012",
+      "question": "Has Datura been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h013",
+      "question": "Is Gynura dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h014",
+      "question": "What illnesses is Gynura taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h015",
+      "question": "What chemicals make Gynura work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h016",
+      "question": "Has Gynura been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h017",
+      "question": "Is Heliotropium dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h018",
+      "question": "What illnesses is Heliotropium taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h019",
+      "question": "What chemicals make Heliotropium work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h020",
+      "question": "Has Heliotropium been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h021",
+      "question": "Is Vasaka dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h022",
+      "question": "What illnesses is Vasaka taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h023",
+      "question": "What chemicals make Vasaka work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h024",
+      "question": "Has Vasaka been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h025",
+      "question": "Is Mikania dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h026",
+      "question": "What illnesses is Mikania taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h027",
+      "question": "What chemicals make Mikania work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h028",
+      "question": "Has Mikania been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h029",
+      "question": "Is Rauvolfia dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h030",
+      "question": "What illnesses is Rauvolfia taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h031",
+      "question": "What chemicals make Rauvolfia work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h032",
+      "question": "Has Rauvolfia been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h033",
+      "question": "Is Sida dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h034",
+      "question": "What illnesses is Sida taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h035",
+      "question": "What chemicals make Sida work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h036",
+      "question": "Has Sida been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h037",
+      "question": "Is Smilax dangerous to use?",
+      "kind": "wrong passage retrieved"
+    },
+    {
+      "id": "h038",
+      "question": "What illnesses is Smilax taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h039",
+      "question": "What chemicals make Smilax work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h040",
+      "question": "Has Smilax been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h042",
+      "question": "What illnesses is Wissadula taken for?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h043",
+      "question": "What chemicals make Wissadula work?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h044",
+      "question": "Has Wissadula been tested on people?",
+      "kind": "refused an answerable question"
+    },
+    {
+      "id": "h051",
+      "question": "Can I stop my blood pressure medicine and use Rauvolfia instead?",
+      "kind": "answered, should have refused"
+    }
+  ],
+  "tuning": {
+    "questions": 59,
+    "unanswerable": 15,
+    "hitAt4": 1,
+    "refusalAccuracy": 1,
+    "wrongRefusals": 0,
+    "citationCoverage": 1,
+    "failures": []
+  }
+}
