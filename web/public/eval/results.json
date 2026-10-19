@@ -1,12 +1,12 @@
 {
   "mode": "offline",
   "set": "holdout",
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "questions": 54,
   "unanswerable": 10,
   "hitAt4": 0.045454545454545456,
-  "refusalAccuracy": 0.9,
-  "wrongRefusals": 33,
+  "refusalAccuracy": 0.8,
+  "wrongRefusals": 20,
   "citationCoverage": 1,
   "failures": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "h004",
       "question": "Has Neem been tested on people?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h005",
@@ -32,17 +32,17 @@
     {
       "id": "h006",
       "question": "What illnesses is Akondo taken for?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h007",
       "question": "What chemicals make Akondo work?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h008",
       "question": "Has Akondo been tested on people?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h009",
@@ -52,17 +52,17 @@
     {
       "id": "h010",
       "question": "What illnesses is Datura taken for?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h011",
       "question": "What chemicals make Datura work?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h012",
       "question": "Has Datura been tested on people?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h013",
@@ -122,7 +122,7 @@
     {
       "id": "h024",
       "question": "Has Vasaka been tested on people?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h025",
@@ -142,7 +142,7 @@
     {
       "id": "h028",
       "question": "Has Mikania been tested on people?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h029",
@@ -157,12 +157,12 @@
     {
       "id": "h031",
       "question": "What chemicals make Rauvolfia work?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h032",
       "question": "Has Rauvolfia been tested on people?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h033",
@@ -177,12 +177,12 @@
     {
       "id": "h035",
       "question": "What chemicals make Sida work?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h036",
       "question": "Has Sida been tested on people?",
-      "kind": "refused an answerable question"
+      "kind": "wrong passage retrieved"
     },
     {
       "id": "h037",
@@ -220,18 +220,39 @@
       "kind": "refused an answerable question"
     },
     {
-      "id": "h051",
-      "question": "Can I stop my blood pressure medicine and use Rauvolfia instead?",
+      "id": "h049",
+      "question": "How tall does Akondo grow?",
+      "kind": "answered, should have refused"
+    },
+    {
+      "id": "h052",
+      "question": "How fast does Mikania spread in a garden?",
       "kind": "answered, should have refused"
     }
   ],
   "tuning": {
     "questions": 59,
     "unanswerable": 15,
-    "hitAt4": 1,
-    "refusalAccuracy": 1,
+    "hitAt4": 0.9772727272727273,
+    "refusalAccuracy": 0.8666666666666667,
     "wrongRefusals": 0,
     "citationCoverage": 1,
-    "failures": []
+    "failures": [
+      {
+        "id": "q009",
+        "question": "What do people use Dhutura for?",
+        "kind": "wrong passage retrieved"
+      },
+      {
+        "id": "q051",
+        "question": "Who first described Assam lata?",
+        "kind": "answered, should have refused"
+      },
+      {
+        "id": "q053",
+        "question": "What does Akondo smell like?",
+        "kind": "answered, should have refused"
+      }
+    ]
   }
 }

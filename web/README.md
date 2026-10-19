@@ -2,7 +2,7 @@
 
 Identify a medicinal plant of Bangladesh from a photo of one leaf, then ask anything about it. Answers cite their sources; anything beyond the sources is labelled as general knowledge.
 
-**Live:** `https://<your-project>.vercel.app` · **Playground:** `/playground` · **Dataset:** [Mendeley Data, DOI 10.17632/9tdc9gbtgb.2](https://doi.org/10.17632/9tdc9gbtgb.2) · **Thesis code:** [MediLeafNET](https://github.com/SifatSwapnil2022/MediLeafNET)
+**Live:** [medi-leaf-net.vercel.app](https://medi-leaf-net.vercel.app) · **Playground:** `/playground` · **Dataset:** [Mendeley Data, DOI 10.17632/9tdc9gbtgb.2](https://doi.org/10.17632/9tdc9gbtgb.2) · **Thesis code:** [MediLeafNET](https://github.com/SifatSwapnil2022/MediLeafNET)
 
 ![The forest at the start of the story](docs/story-0.jpg)
 

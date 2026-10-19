@@ -36,8 +36,13 @@ export const MAX_HISTORY = 4
 const DOSAGE =
   /\b(dose|doses|dosage|dosing|overdose|mg|milligrams?|ml|millilit(er|re)s?|grams?|teaspoons?|tablespoons?|per day|times a day|how much (should|can|do|to|would) (i|we|you|he|she|they|one)? ?(take|eat|drink|give|use|consume|apply))\b/i
 
+// Preparation, self-treatment and pregnancy questions get the same refusal:
+// three of the plants are poisonous, and the sources say nothing safe about these.
+const PREPARATION =
+  /\b(recipes?|decoctions?|infusions?|how (do|can|should|to|would) (i|we|you|one)? ?(prepare|make|brew|boil|cook|steep|extract)|how long (should|do|to|can) (i|we|you|one)? ?(boil|steep|brew|soak|cook)|instead of|replace (my|the)|substitute for|stop (taking|using|my)|pregnan\w*|breastfe\w*)\b/i
+
 export function isDosageQuestion(q: string): boolean {
-  return DOSAGE.test(q)
+  return DOSAGE.test(q) || PREPARATION.test(q)
 }
 
 // --- Lexical retrieval (BM25) -----------------------------------------------
@@ -194,7 +199,7 @@ export const displayName = (p: Plant) => (p.local === 'No common local name' ? p
 export function refusalText(plant: Plant, reason: AskResult['reason']): string {
   switch (reason) {
     case 'dosage':
-      return `I don't give doses for ${displayName(plant)} or any other plant. The right amount depends on the person, and getting it wrong can hurt. Please ask a doctor or pharmacist.`
+      return `I don't give doses, preparations or treatment advice for ${displayName(plant)} or any other plant. What is safe depends on the person, and getting it wrong can hurt. Please ask a doctor or pharmacist.`
     case 'ungrounded':
       return `I couldn't write an answer I could back up, so I'm not giving one.`
     case 'off_topic':

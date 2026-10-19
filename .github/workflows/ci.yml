@@ -6,6 +6,11 @@ on:
   pull_request:
   workflow_dispatch:
 
+# GitHub only runs workflows from the repository root, so every step runs inside web/.
+defaults:
+  run:
+    working-directory: web
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +20,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: web/package-lock.json
       - run: npm ci
       - run: npx tsc -b
       - name: Offline retrieval eval (fails if the held-out refusal rate drops)
@@ -39,4 +45,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: eval-results
-          path: public/eval/results.json
+          path: web/public/eval/results.json
